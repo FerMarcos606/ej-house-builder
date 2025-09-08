@@ -63,8 +63,7 @@ Uso
 | +getStatues()     |
 +-------------------+
 
-        ^
-        |
+       
 +---------------------+
 |   InterfaceHouseBuilder      |
 |---------------------|
@@ -74,8 +73,7 @@ Uso
 | +statues(int)        |
 | +build(): HouseEntity|
 +---------------------+
-        ^
-        |
+       
 +------------------------+
 | HouseEntityBuilder      |
 |------------------------|
@@ -85,9 +83,7 @@ Uso
 | +statues(int)          |
 | +build(): HouseEntity  |
 +------------------------+
-
-        o
-        |
+      
 +------------------------+
 |   HouseDirector        |
 |------------------------|
@@ -95,6 +91,7 @@ Uso
 | +constructBasicHouse() |
 | +constructGardenPool() |
 +------------------------+
+     
 
 
 
